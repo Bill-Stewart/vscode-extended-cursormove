@@ -12,12 +12,10 @@ This extension adds some additional cursor movement commands to VS Code:
 * `extension.extendedCursorMove.cursorTopLeftSelect` - moves the cursor to the top left corner of the current view and select
 * `extension.extendedCursorMove.cursorBottomRight` - moves the cursor to the bottom right corder of the current view
 * `extension.extendedCursorMove.cursorBottomRightSelect` - moves the cursor to the bottom right corder of the current view and select
-* `extension.extendedCursorMove.centerCursorInView` - centers the cursor vertically in the current view
+* `extension.extendedCursorMove.centerCursorInView` - moves the cursor to the center of the current view
 * `extension.extendedCursorMove.moveCursorToView` - moves the cursor to the center of the current view
 
-The `extension.extendedCursorMove.moveCursorToView` command can be useful if
-you have scrolled the cursor out of the current view and you want to position
-the cursor to the current view without using the mouse.
+The `extension.extendedCursorMove.moveCursorToView` command can be useful if you have scrolled the cursor out of the current view and you want to position the cursor to the current view without using the mouse.
 
 You can use these commands in your `keybindings.json` file; for example:
 
