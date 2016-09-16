@@ -66,29 +66,7 @@
         "command": "extension.extendedCursorMove.moveCursorToView",
         "title": "Move cursor to current view"
       }
-    ] //,
-    //"keybindings": [
-    //  {
-    //    "command": "extension.extendedCursorMove.cursorHome",
-    //    "key": "home",
-    //    "when": "editorTextFocus"
-    //  },
-    //  {
-    //    "command": "extension.extendedCursorMove.cursorHomeSelect",
-    //    "key": "shift+home",
-    //    "when": "editorTextFocus"
-    //  },
-    //  {
-    //    "command": "extension.extendedCursorMove.cursorEnd",
-    //    "key": "end",
-    //    "when": "editorTextFocus"
-    //  },
-    //  {
-    //    "command": "extension.extendedCursorMove.cursorEndSelect",
-    //    "key": "shift+end",
-    //    "when": "editorTextFocus"
-    //  }
-    //]
+    ]
   },
   "devDependencies": {
     "vscode": "^0.11.13"
@@ -96,9 +74,9 @@
   "bugs": {
     "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/issues/"
   },
-  "homepage": "hhttps://github.com/Bill-Stewart/vscode-extended-cursormove/blob/master/README.md",
+  "homepage": "https://github.com/Bill-Stewart/vscode-extended-cursormove/blob/master/README.md",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/"
+    "type": "git",
+    "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/"
   }
 }
