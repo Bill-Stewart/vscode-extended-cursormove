@@ -2,7 +2,7 @@
   "name": "extended-cursormove",
   "displayName": "Extended Cursor Movements",
   "description": "Extended cursor movement commands",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "BillStewart",
   "engines": {
     "vscode": "^1.5.x"
@@ -40,7 +40,7 @@
       },
       {
         "command": "extension.extendedCursorMove.cursorEndSelect",
-        "title": "Move cursor to end of current line after all white space and select"
+        "title": "Move cursor to end of current line after all whitespace and select"
       },
       {
         "command": "extension.extendedCursorMove.cursorTopLeft",

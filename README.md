@@ -1,6 +1,6 @@
 # Extended Cursor Movements Extension
 
-Written by Bill Stewart (bstewart@iname.com)
+Written by Bill Stewart
 
 This extension adds some additional cursor movement commands to VS Code:
 
