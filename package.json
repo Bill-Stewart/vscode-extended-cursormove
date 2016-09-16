@@ -1,0 +1,87 @@
+{
+  "name": "extended-cursormove",
+  "displayName": "Extended Cursor Movements",
+  "description": "Extended cursor movement commands",
+  "version": "0.0.1",
+  "publisher": "BillStewart",
+  "engines": {
+    "vscode": "^1.5.x"
+  },
+  "categories": [
+    "Other"
+  ],
+  "license": "MIT",
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.extendedCursorMove.cursorHome",
+        "title": "Move cursor to beginning of current line, ignoring whitespace"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorHomeSelect",
+        "title": "Move cursor to beginning of current line, ignoring whitespace, and select"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorEnd",
+        "title": "Move cursor to end of current line, ignoring whitespace"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorEndSelect",
+        "title": "Move cursor to end of current line, ignoring whitespace and select"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorTopLeft",
+        "title": "Move cursor to top left corner of current view"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorTopLeftSelect",
+        "title": "Move cursor to top left corner of current view and select"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorBottomRight",
+        "title": "Move cursor to bottom right corner of current view"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorBottomRightSelect",
+        "title": "Move cursor to bottom right corner of current view and select"
+      },
+      {
+        "command": "extension.extendedCursorMove.centerCursorInView",
+        "title": "Center cursor in current view"
+      },
+      {
+        "command": "extension.extendedCursorMove.moveCursorToView",
+        "title": "Move cursor to current view"
+      }
+    ],
+    // "keybindings": [
+    //   {
+    //     "command": "extension.extendedCursorMove.cursorHome",
+    //     "key": "home",
+    //     "when": "editorTextFocus"
+    //   },
+    //   {
+    //     "command": "extension.extendedCursorMove.cursorHomeSelect",
+    //     "key": "shift+home",
+    //     "when": "editorTextFocus"
+    //   },
+    //   {
+    //     "command": "extension.extendedCursorMove.cursorEnd",
+    //     "key": "end",
+    //     "when": "editorTextFocus"
+    //   },
+    //   {
+    //     "command": "extension.extendedCursorMove.cursorEndSelect",
+    //     "key": "shift+end",
+    //     "when": "editorTextFocus"
+    //   }
+    // ],
+    "devDependencies": {
+      "vscode": "^1.5.x"
+    }
+  }
+}
