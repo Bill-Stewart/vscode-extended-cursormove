@@ -12,7 +12,16 @@
   ],
   "license": "MIT",
   "activationEvents": [
-    "*"
+    "onCommand:extension.extendedCursorMove.cursorHome",
+    "onCommand:extension.extendedCursorMove.cursorHomeSelect",
+    "onCommand:extension.extendedCursorMove.cursorEnd",
+    "onCommand:extension.extendedCursorMove.cursorEndSelect",
+    "onCommand:extension.extendedCursorMove.cursorTopLeft",
+    "onCommand:extension.extendedCursorMove.cursorTopLeftSelect",
+    "onCommand:extension.extendedCursorMove.cursorBottomRight",
+    "onCommand:extension.extendedCursorMove.cursorBottomRightSelect",
+    "onCommand:extension.extendedCursorMove.centerCursorInView",
+    "onCommand:extension.extendedCursorMove.moveCursorToView"
   ],
   "main": "./extension",
   "contributes": {
@@ -27,11 +36,11 @@
       },
       {
         "command": "extension.extendedCursorMove.cursorEnd",
-        "title": "Move cursor to end of current line, ignoring whitespace"
+        "title": "Move cursor to end of current line after all whitespace"
       },
       {
         "command": "extension.extendedCursorMove.cursorEndSelect",
-        "title": "Move cursor to end of current line, ignoring whitespace and select"
+        "title": "Move cursor to end of current line after all white space and select"
       },
       {
         "command": "extension.extendedCursorMove.cursorTopLeft",
@@ -51,37 +60,45 @@
       },
       {
         "command": "extension.extendedCursorMove.centerCursorInView",
-        "title": "Center cursor in current view"
+        "title": "Move cursor to center of current view"
       },
       {
         "command": "extension.extendedCursorMove.moveCursorToView",
         "title": "Move cursor to current view"
       }
-    ],
-    // "keybindings": [
-    //   {
-    //     "command": "extension.extendedCursorMove.cursorHome",
-    //     "key": "home",
-    //     "when": "editorTextFocus"
-    //   },
-    //   {
-    //     "command": "extension.extendedCursorMove.cursorHomeSelect",
-    //     "key": "shift+home",
-    //     "when": "editorTextFocus"
-    //   },
-    //   {
-    //     "command": "extension.extendedCursorMove.cursorEnd",
-    //     "key": "end",
-    //     "when": "editorTextFocus"
-    //   },
-    //   {
-    //     "command": "extension.extendedCursorMove.cursorEndSelect",
-    //     "key": "shift+end",
-    //     "when": "editorTextFocus"
-    //   }
-    // ],
-    "devDependencies": {
-      "vscode": "^1.5.x"
-    }
+    ] //,
+    //"keybindings": [
+    //  {
+    //    "command": "extension.extendedCursorMove.cursorHome",
+    //    "key": "home",
+    //    "when": "editorTextFocus"
+    //  },
+    //  {
+    //    "command": "extension.extendedCursorMove.cursorHomeSelect",
+    //    "key": "shift+home",
+    //    "when": "editorTextFocus"
+    //  },
+    //  {
+    //    "command": "extension.extendedCursorMove.cursorEnd",
+    //    "key": "end",
+    //    "when": "editorTextFocus"
+    //  },
+    //  {
+    //    "command": "extension.extendedCursorMove.cursorEndSelect",
+    //    "key": "shift+end",
+    //    "when": "editorTextFocus"
+    //  }
+    //]
+  },
+  "devDependencies": {
+    "vscode": "^0.11.13"
+  },
+  "bugs": {
+    "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/issues/"
+  },
+  "homepage": "hhttps://github.com/Bill-Stewart/vscode-extended-cursormove/blob/master/README.md",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/"
   }
 }
