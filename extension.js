@@ -9,6 +9,17 @@ function activate(context) {
   //console.log("Congratulations, your extension 'extended-cursormove' is now active!");
 
   context.subscriptions.push(
+    vscode.commands.registerTextEditorCommand("extension.extendedCursorMove.cursorHomeToNonWhitespace", function(editor, edit) {
+      vscode.commands.executeCommand("cursorMove", {
+        to: "wrappedLineFirstNonWhitespaceCharacter",
+        by: "line",
+        select: false,
+        value: 1,
+      });
+    })
+  );
+
+  context.subscriptions.push(
     vscode.commands.registerTextEditorCommand("extension.extendedCursorMove.cursorHome", function(editor, edit) {
       vscode.commands.executeCommand("cursorMove", {
         to: "wrappedLineStart",
