@@ -6,6 +6,7 @@ This extension adds some additional cursor movement commands to VS Code:
 
 * `extension.extendedCursorMove.cursorHome` - moves the cursor to the beginning of the current line, ignoring whitespace
 * `extension.extendedCursorMove.cursorHomeSelect` - moves the cursor to the beginning of the current line, ignoring whitespace, and select
+* `extension.extendedCursorMove.cursorHomeToNonWhitespace` - moves the cursor to the first non-whitespace character of the line
 * `extension.extendedCursorMove.cursorEnd` - moves the cursor to the end of the current line after all whitespace
 * `extension.extendedCursorMove.cursorEndSelect` - moves the cursor to the end of the current line after all whitespace and select
 * `extension.extendedCursorMove.cursorTopLeft` - moves the cursor to the top left corner of the current view
