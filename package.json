@@ -13,6 +13,7 @@
   "license": "MIT",
   "activationEvents": [
     "onCommand:extension.extendedCursorMove.cursorHome",
+    "onCommand:extension.extendedCursorMove.cursorHomeToNonWhitespace",
     "onCommand:extension.extendedCursorMove.cursorHomeSelect",
     "onCommand:extension.extendedCursorMove.cursorEnd",
     "onCommand:extension.extendedCursorMove.cursorEndSelect",
@@ -29,6 +30,10 @@
       {
         "command": "extension.extendedCursorMove.cursorHome",
         "title": "Move cursor to beginning of current line, ignoring whitespace"
+      },
+      {
+        "command": "extension.extendedCursorMove.cursorHomeToNonWhitespace",
+        "title": "Move cursor to the first non-whitespace character of the line"
       },
       {
         "command": "extension.extendedCursorMove.cursorHomeSelect",
